@@ -14,7 +14,7 @@ export default async function Home({ searchParams }) {
   return (
     <main className="login">
       <section className="login-card">
-        <img className="login-logo" src="/uploads/logo/logo-640.webp" alt="" width="64" height="64" />
+        <img className="login-logo" src="/uploads/logo/cipher-logo-v2-640.webp" alt="" width="64" height="64" />
         <h1>{s.site_name}</h1>
         <p>เข้าสู่ระบบด้วย Discord เพื่อจัดการคีย์ของคุณ</p>
         {authError && <div className="chk-err" role="alert"><Icon n="alert" size={16} />{authError}</div>}

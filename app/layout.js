@@ -21,11 +21,11 @@ export async function generateMetadata() {
     title: { default: s.site_name, template: `%s · ${s.site_name}` },
     description: DESC,
     icons: {
-      icon: [{ url: '/favicon.ico' }, { url: '/icon.png', type: 'image/png', sizes: '512x512' }],
-      apple: '/apple-touch-icon.png',
+      icon: [{ url: '/favicon.ico?v=2' }, { url: '/icon.png?v=2', type: 'image/png', sizes: '512x512' }],
+      apple: '/apple-touch-icon.png?v=2',
     },
-    openGraph: { type: 'website', siteName: s.site_name, title: s.site_name, description: DESC, locale: 'th_TH', images: [{ url: '/og.png', width: 1200, height: 630 }] },
-    twitter: { card: 'summary_large_image', images: ['/og.png'] },
+    openGraph: { type: 'website', siteName: s.site_name, title: s.site_name, description: DESC, locale: 'th_TH', images: [{ url: '/og.png?v=2', width: 1200, height: 630 }] },
+    twitter: { card: 'summary_large_image', images: ['/og.png?v=2'] },
   };
 }
 

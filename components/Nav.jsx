@@ -16,7 +16,7 @@ export default function Nav({ user, siteName, adminPath, active }) {
     <header className="nav">
       <div className="nav-in">
         <Link href={user ? '/dashboard' : '/'} className="brand" aria-label={siteName}>
-          <img src="/uploads/logo/logo-640.webp" alt="" width="32" height="32" />
+          <img src="/uploads/logo/cipher-logo-v2-640.webp" alt="" width="32" height="32" />
           <span>{siteName}</span>
         </Link>
         <nav className="nav-links" aria-label="เมนูหลัก">

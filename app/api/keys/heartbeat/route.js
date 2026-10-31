@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 
 /**
  * Heartbeat — ให้สคริปต์ในเกมเรียกซ้ำทุก ~10 วินาทีเพื่อเช็กว่าคีย์ยังใช้ได้อยู่ไหม
- *   GET/POST /api/keys/heartbeat?key=NEXUSHUBX-XXXX-XXXX-XXXX&hwid=รหัสเครื่อง
+ *   GET/POST /api/keys/heartbeat?key=CIPHERHUB-XXXX-XXXX-XXXX&hwid=รหัสเครื่อง
  *   ตอบ { alive: true|false, code, kick, message, interval }
  *   alive=false + kick=true  → สคริปต์ต้องเตะผู้เล่นออกจากเกมทันที (คีย์ถูกลบ / ระงับ / หมดอายุ / ใช้ผิดเครื่อง / เจ้าของถูกแบน)
  *   kick=false (SERVER_ERROR, RATE_LIMITED) → ปัญหาชั่วคราวของเซิร์ฟเวอร์ ห้ามเตะ ให้ลองใหม่รอบถัดไป

@@ -59,7 +59,7 @@ export default function Dashboard({ initial, adminPath }) {
       <form className="claim" onSubmit={submitClaim}>
         <div className="claim-t"><Icon n="key" size={20} /><div><b>ผูกคีย์กับบัญชีนี้</b><span>คีย์ต้องผูกกับ Discord ของคุณก่อน สคริปต์ถึงจะใช้ผ่าน</span></div></div>
         <div className="claim-f">
-          <input className="input mono" value={claim} onChange={(e) => setClaim(e.target.value.toUpperCase().replace(/\s/g, ''))} placeholder="NEXUSHUBX-XXXX-XXXX-XXXX" maxLength={30} spellCheck={false} autoComplete="off" />
+          <input className="input mono" value={claim} onChange={(e) => setClaim(e.target.value.toUpperCase().replace(/\s/g, ''))} placeholder="CIPHERHUB-XXXX-XXXX-XXXX" maxLength={30} spellCheck={false} autoComplete="off" />
           <button className="btn btn-primary" disabled={busy || !claim}>{busy ? <Spinner /> : <Icon n="plus" size={16} />}ผูกคีย์</button>
         </div>
       </form>

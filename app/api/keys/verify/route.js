@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 
 /**
  * API ตรวจคีย์ (สาธารณะ — ให้สคริปต์/บอท/โปรแกรม/เว็บอื่นเรียกได้ จึงเปิด CORS)
- *   GET  /api/keys/verify?key=NEXUSHUBX-XXXX-XXXX-XXXX&hwid=รหัสเครื่อง&roblox_id=123&roblox_name=ชื่อในเกม
+ *   GET  /api/keys/verify?key=CIPHERHUB-XXXX-XXXX-XXXX&hwid=รหัสเครื่อง&roblox_id=123&roblox_name=ชื่อในเกม
  *   POST /api/keys/verify   {"key":"...","hwid":"..."}
  *   check=1 ดูสถานะเฉยๆ (ไม่เริ่มนับเวลา ไม่ผูกเครื่อง)   format=text ผลแบบข้อความสั้น
  * ไม่ต้องล็อกอิน Discord — ใส่คีย์แล้วใช้ได้เลย (ผูกเครื่องอัตโนมัติครั้งแรก)

@@ -53,7 +53,7 @@ export default function Settings() {
       <section className="card">
         <h3>ทั่วไป</h3>
         <F k="site_name" label="ชื่อเว็บ" max={40} />
-        <F k="default_prefix" label="คำนำหน้าคีย์เริ่มต้น" hint="A–Z 0–9 ยาว 2–12 ตัว เช่น NEXUSHUBX" max={12} />
+        <F k="default_prefix" label="คำนำหน้าคีย์เริ่มต้น" hint="A–Z 0–9 ยาว 2–12 ตัว เช่น CIPHERHUB" max={12} />
       </section>
       <section className="card">
         <h3>สิทธิ์ที่ผู้ใช้ทำเองได้</h3>

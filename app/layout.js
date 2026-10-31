@@ -10,11 +10,11 @@ import Guard from '@/components/Guard';
 
 export const dynamic = 'force-dynamic';
 
-const SITE = (process.env.SITE_URL || 'https://flexozy.site').replace(/\/+$/, '');
+const SITE = (process.env.SITE_URL || 'https://api-flame-five-99.vercel.app').replace(/\/+$/, '');
 const DESC = 'จัดการคีย์ รีเซ็ต HWID รีคีย์ และดูโปรไฟล์ Roblox ของคุณ';
 
 export async function generateMetadata() {
-  let s = { site_name: 'Nexus Hub X' };
+  let s = { site_name: 'Cipher Hub' };
   try { s = await getSettings(); } catch {}
   return {
     metadataBase: new URL(SITE),

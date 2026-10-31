@@ -1,0 +1,21 @@
+{
+  "name": "flexozy-keys",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans-thai": "^5.1.0",
+    "@fontsource/jetbrains-mono": "^5.1.0",
+    "next": "^15.1.0",
+    "pg": "^8.13.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}
